@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable blue water placeholder</title>
+  <desc id="desc">Abstract suspended particles in blue water for a replaceable exploration photo placeholder.</desc>
+  <rect width="1200" height="1500" fill="#071425"/>
+  <g fill="#bde6e8" opacity=".42">
+    <circle cx="180" cy="210" r="8"/>
+    <circle cx="390" cy="360" r="5"/>
+    <circle cx="860" cy="260" r="10"/>
+    <circle cx="1020" cy="550" r="6"/>
+    <circle cx="230" cy="760" r="11"/>
+    <circle cx="590" cy="920" r="7"/>
+    <circle cx="910" cy="1080" r="9"/>
+    <circle cx="340" cy="1220" r="6"/>
+  </g>
+  <path d="M0 1180 C 260 1080, 430 1260, 670 1160 S 1010 1110, 1200 1210 V1500 H0Z" fill="#0c3842"/>
+  <text x="70" y="1435" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE UNDERWATER IMAGE</text>
+</svg>

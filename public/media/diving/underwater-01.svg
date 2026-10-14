@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable underwater reef placeholder</title>
+  <desc id="desc">Abstract underwater reef-like scene for a replaceable exploration photo placeholder.</desc>
+  <rect width="1200" height="1500" fill="#06121a"/>
+  <path d="M0 0 H1200 V1500 H0Z" fill="#0b3040"/>
+  <circle cx="960" cy="170" r="130" fill="#d4c185" opacity=".55"/>
+  <g fill="#76b8a3" opacity=".78">
+    <path d="M150 1260 C 160 980, 240 900, 280 1260Z"/>
+    <path d="M420 1340 C 430 1060, 520 940, 590 1340Z"/>
+    <path d="M780 1300 C 790 1020, 910 930, 940 1300Z"/>
+  </g>
+  <g fill="none" stroke="#f0d285" stroke-width="7" opacity=".7">
+    <path d="M70 1220 C 180 1130, 250 1190, 350 1110"/>
+    <path d="M690 1180 C 810 1080, 930 1210, 1090 1090"/>
+  </g>
+  <text x="70" y="1435" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE UNDERWATER IMAGE</text>
+</svg>

@@ -1,0 +1,9 @@
+Lianzijun (Lian) Wang CV Placeholder
+
+Replace this file with a real PDF CV when ready.
+
+Suggested filename:
+public/files/lian-wang-cv.pdf
+
+Then update profile.cvPath in src/data.js to:
+/files/lian-wang-cv.pdf

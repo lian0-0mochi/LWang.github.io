@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable pipa photo placeholder</title>
+  <desc id="desc">Stylized pipa silhouette for a replaceable music photograph placeholder.</desc>
+  <rect width="1200" height="1500" fill="#100e0b"/>
+  <path d="M612 170 C 500 290, 450 470, 475 705 C 505 980, 410 1135, 610 1270 C 810 1135, 715 980, 745 705 C 770 470, 720 290, 612 170Z" fill="#b88755"/>
+  <path d="M612 200 L612 1280" stroke="#241810" stroke-width="10"/>
+  <g stroke="#f2dcc0" stroke-width="4" opacity=".8">
+    <path d="M560 250 C 610 570, 590 950, 545 1240"/>
+    <path d="M592 220 C 625 570, 620 960, 592 1260"/>
+    <path d="M632 220 C 620 570, 635 960, 655 1260"/>
+    <path d="M665 250 C 630 570, 665 950, 705 1240"/>
+  </g>
+  <text x="70" y="1435" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE PIPA IMAGE</text>
+</svg>

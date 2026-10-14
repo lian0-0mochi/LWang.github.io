@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable underwater descent placeholder</title>
+  <desc id="desc">Abstract diver silhouette and water rays for a replaceable exploration photo placeholder.</desc>
+  <rect width="1200" height="1500" fill="#07111d"/>
+  <g opacity=".55" fill="#7bc6d2">
+    <path d="M120 0 L500 1500 H320 Z"/>
+    <path d="M620 0 L850 1500 H700 Z"/>
+    <path d="M920 0 L1140 1500 H1060 Z"/>
+  </g>
+  <g fill="#03060a" opacity=".84">
+    <ellipse cx="620" cy="650" rx="130" ry="48" transform="rotate(-12 620 650)"/>
+    <circle cx="505" cy="610" r="42"/>
+    <path d="M650 665 L835 760 L800 820 L635 705Z"/>
+    <path d="M580 680 L410 800 L360 750 L535 640Z"/>
+  </g>
+  <text x="70" y="1435" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE UNDERWATER IMAGE</text>
+</svg>

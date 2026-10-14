@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable pipa detail placeholder</title>
+  <desc id="desc">Abstract close detail of pipa strings for a replaceable music photo placeholder.</desc>
+  <rect width="1200" height="1500" fill="#0d0b08"/>
+  <rect x="120" y="0" width="300" height="1500" fill="#8f613f"/>
+  <rect x="420" y="0" width="80" height="1500" fill="#d1a66a"/>
+  <g stroke="#f7e6c8" stroke-width="5" opacity=".86">
+    <path d="M520 0 L210 1500"/>
+    <path d="M610 0 L350 1500"/>
+    <path d="M710 0 L520 1500"/>
+    <path d="M820 0 L720 1500"/>
+  </g>
+  <text x="70" y="1435" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE DETAIL IMAGE</text>
+</svg>

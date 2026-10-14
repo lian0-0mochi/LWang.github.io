@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable image analysis placeholder</title>
+  <desc id="desc">Abstract blue and amber analysis-like image for a replaceable science gallery placeholder.</desc>
+  <rect width="1200" height="1500" fill="#070b12"/>
+  <g fill="none" stroke-width="7" opacity=".78">
+    <path d="M150 220 L420 430 L650 280 L980 620 L780 900 L1040 1180" stroke="#8ac9d0"/>
+    <path d="M220 1100 L460 860 L710 1000 L980 760" stroke="#c9a86a"/>
+    <path d="M110 720 L360 620 L570 760 L840 570 L1100 690" stroke="#c27993"/>
+  </g>
+  <g fill="#f7f0e7">
+    <circle cx="150" cy="220" r="20"/>
+    <circle cx="420" cy="430" r="20"/>
+    <circle cx="650" cy="280" r="20"/>
+    <circle cx="980" cy="620" r="20"/>
+    <circle cx="780" cy="900" r="20"/>
+    <circle cx="1040" cy="1180" r="20"/>
+  </g>
+  <rect x="75" y="1375" width="220" height="10" fill="#f7f0e7"/>
+  <text x="75" y="1440" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE SAMPLE</text>
+</svg>

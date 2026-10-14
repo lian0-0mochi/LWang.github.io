@@ -1,0 +1,24 @@
+{
+  "name": "lianzijun-wang-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && npm run copy:publication-assets",
+    "copy:publication-assets": "if [ -d static/publications ]; then mkdir -p dist/publications && cp -R static/publications/. dist/publications/; fi",
+    "preview": "vite preview",
+    "media:import": "node scripts/import-media.mjs",
+    "check:assets": "node scripts/check-assets.mjs",
+    "check:files": "node scripts/check-files.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.9",
+    "typescript": "^5.9.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {}
+}

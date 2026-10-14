@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Replaceable magenta specimen placeholder</title>
+  <desc id="desc">Abstract tissue-like image for a replaceable science gallery placeholder.</desc>
+  <rect width="1200" height="1500" fill="#100911"/>
+  <g opacity=".72">
+    <path d="M0 380 C 250 250, 390 540, 610 390 S 990 180, 1200 340 L1200 0 L0 0Z" fill="#8b4f7e"/>
+    <path d="M0 920 C 270 740, 420 1080, 690 890 S 980 820, 1200 980 L1200 1500 L0 1500Z" fill="#c08b61"/>
+    <path d="M150 610 C 420 470, 640 660, 950 540" fill="none" stroke="#e5bfc9" stroke-width="12"/>
+    <path d="M90 1120 C 310 980, 620 1230, 1040 1050" fill="none" stroke="#86c7ce" stroke-width="10"/>
+  </g>
+  <rect x="75" y="1375" width="220" height="10" fill="#f7f0e7"/>
+  <text x="75" y="1440" fill="#f7f0e7" font-family="Arial, sans-serif" font-size="34">REPLACEABLE SAMPLE</text>
+</svg>
