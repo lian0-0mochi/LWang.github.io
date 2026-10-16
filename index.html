@@ -8,6 +8,19 @@
       content="Academic and creative portfolio for Lianzijun (Lian) Wang, PhD candidate in Biology at Duke University."
     />
     <title>Lianzijun Wang Portfolio</title>
+    <script>
+      (function () {
+        try {
+          var params = new URLSearchParams(window.location.search);
+          var queryTheme = params.get('theme');
+          var saved = localStorage.getItem('theme');
+          var theme = (queryTheme === 'dark' || queryTheme === 'light')
+            ? queryTheme
+            : (saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'));
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

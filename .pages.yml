@@ -1,0 +1,109 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: site
+    label: Site & Profile
+    type: file
+    path: src/content/site.json
+    fields:
+      - name: profile
+        label: Profile
+        type: object
+        fields:
+          - { name: name, label: Full Name, type: string }
+          - { name: preferredName, label: Preferred Name, type: string }
+          - { name: title, label: Academic Title, type: string }
+          - { name: affiliation, label: Affiliation, type: string }
+          - { name: location, label: Location, type: string }
+          - { name: email, label: Email, type: string }
+          - { name: biography, label: Biography, type: rich-text }
+      - name: hero
+        label: Homepage Hero
+        type: object
+        fields:
+          - { name: headline, label: Headline, type: string }
+          - { name: eyebrow, label: Eyebrow, type: string }
+          - { name: body, label: Body Text, type: string }
+      - name: homeAbout
+        label: About Me & Name Story
+        type: object
+        fields:
+          - { name: headline, label: Headline, type: string }
+          - { name: chineseName, label: Chinese Name, type: string }
+          - { name: subtitle, label: Subtitle, type: string }
+          - { name: hometownNote, label: Hometown Note, type: string }
+          - { name: story, label: Story Paragraphs, type: list, field: { type: rich-text } }
+
+  - name: science
+    label: Science & Publications
+    type: file
+    path: src/content/science.json
+    fields:
+      - { name: title, label: Page Title, type: string }
+      - { name: intro, label: Research Intro, type: rich-text }
+      - name: modelOrganism
+        label: Model Organism
+        type: object
+        fields:
+          - { name: title, label: Section Title, type: string }
+          - { name: paragraphs, label: Paragraphs, type: list, field: { type: rich-text } }
+      - name: publishedWorks
+        label: Publications
+        type: list
+        fields:
+          - { name: id, label: ID, type: string }
+          - { name: title, label: Paper Title, type: string }
+          - { name: venue, label: Venue, type: string }
+          - { name: year, label: Year, type: string }
+          - { name: authors, label: Authors, type: string }
+          - { name: summary, label: Summary, type: rich-text }
+          - { name: journalUrl, label: Journal / DOI URL, type: string }
+          - { name: pdfUrl, label: PDF Path, type: string }
+
+  - name: music
+    label: Music & Pipa
+    type: file
+    path: src/content/music.json
+    fields:
+      - { name: overview, label: Overview, type: string }
+      - { name: pipaIntro, label: Pipa History & Repertoire, type: rich-text }
+      - { name: personalNote, label: Personal Reflection, type: rich-text }
+
+  - name: hobbies
+    label: Hobbies & Adventures
+    type: file
+    path: src/content/hobbies.json
+    fields:
+      - { name: overview, label: Overview, type: string }
+      - name: categories
+        label: Categories
+        type: list
+        fields:
+          - { name: id, label: Category ID, type: string }
+          - { name: title, label: Category Title, type: string }
+          - { name: subtitle, label: Subtitle, type: string }
+          - { name: description, label: Description, type: rich-text }
+
+  - name: videos
+    label: Video Links & Embeds
+    type: file
+    path: src/videos.json
+    fields:
+      - name: music
+        label: Music Videos
+        type: list
+        fields:
+          - { name: id, label: Video ID, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: hostedUrl, label: YouTube / Vimeo URL, type: string }
+          - { name: description, label: Description, type: string }
+      - name: diving
+        label: Diving Videos
+        type: list
+        fields:
+          - { name: id, label: Video ID, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: hostedUrl, label: YouTube / Vimeo URL, type: string }
+          - { name: description, label: Description, type: string }

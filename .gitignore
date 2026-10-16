@@ -5,3 +5,17 @@ npm-debug.log*
 /media-originals/
 /media-inbox/*
 !/media-inbox/README.md
+
+# Native video thumbnail generator binary (compiled on demand from Swift source)
+scripts/extract-frame
+
+# Raw video originals must never be committed to Git or deployed
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+*.M4V
+*.webm
+*.avi
+*.mkv

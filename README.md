@@ -70,36 +70,51 @@ On a fresh clone, run `npm run media:import` once to create the empty inbox
 folders. Inbox originals are ignored by Git. Existing imported photographs and
 thumbnails are already part of the website files.
 
-## Videos and Local Originals
+## Videos and Scalable Video Management
 
-Original media is preserved in `media-originals/archive/`. This folder is
-ignored by Git and excluded from `dist/`. Keep it on your computer or in your
-own backup when changing computers. It is not restored by cloning GitHub.
+The website includes a dedicated video management system designed to handle large recordings (such as 4K underwater GoPro videos, snowboarding runs, and pipa performances) without bloating the repository or slowing down page loads.
 
-The four oversized files are:
+### Architecture Overview
 
-| Local archive path | Size |
-| --- | --- |
-| `media-originals/archive/GX010079.MP4` | 435,466,900 bytes |
-| `media-originals/archive/My_Edit.mp4` | 155,546,143 bytes |
-| `media-originals/archive/hobbies-videos/hobbies-video-01.mp4` | 155,546,143 bytes |
-| `media-originals/archive/hobbies-videos/hobbies-video-02.mp4` | 435,466,900 bytes |
+1. **Local Preservation**: Original video files stay strictly on your local machine in full quality within `media-originals/` (which is in `.gitignore`). They are never compressed, overwritten, or committed to GitHub.
+2. **External Hosting**: Public video streaming is powered by externally hosted video URLs (unlisted YouTube videos by default, or Vimeo).
+3. **Click-to-Load Playback**: Galleries and music pages load only lightweight poster thumbnails (~20–70 KB) instead of gigabyte video files or heavy iframes upfront. When a visitor clicks a video card, a responsive lightbox modal loads the player on demand. Closing the modal immediately unmounts the player, completely stopping playback and releasing browser memory.
+4. **Automated Thumbnailing**: Placing a video into `media-inbox/<category>/` and running `npm run media:import` automatically extracts high-definition poster and thumbnail images (using FFmpeg if available, or macOS native AVFoundation tools) and records the duration and metadata into `src/videos.json`.
+5. **Pending Preview State**: If a video does not yet have an external hosted URL, it appears as an attractive preview card with a "Hosted video coming soon" badge, preventing broken links or 404 errors.
+6. **Deployment Guardrails**: Pre-deployment validation scripts (`npm run check:files` and `npm run check:assets`) verify that no raw video files or assets over 100 MiB are ever tracked in Git or bundled into `public/` or `dist/`.
 
-Both hobby recordings play from the local archive during `npm run dev`.
-Published builds retain the titles, captions, and preview cards, with
-"Recording available soon" until a hosted URL is configured. No original video
-is uploaded or included in the production build.
+### 7-Step Workflow to Add New Videos
 
-Recommended for later: upload the two unique recordings to YouTube, optionally
-as unlisted videos. Put each video ID into `exploration.videos[].youtubeId` in
-`src/data.js`, just as on the Pipa page. An ID is the part after `v=` in a
-YouTube watch URL. The website then embeds that recording.
+Whenever you have new footage to add:
 
-Alternatively, put a direct HTTPS MP4 URL into `externalUrl`. Leave `youtubeId`
-empty for direct MP4 playback. `originalSrc` records the old website reference
-and `localSrc` identifies the preserved local copy; keep those fields for the
-archive. The originals can also be compressed later into smaller web videos,
-without replacing or deleting the originals.
+1. **Export the Video**: Save or export the video file from your phone, GoPro, or camera (e.g. `GX010079.MP4` or `snowboard-run.mov`).
+2. **Drop into Media Inbox**: In Finder, drop the file into the appropriate inbox folder:
+   - `media-inbox/diving/`
+   - `media-inbox/snowboarding/`
+   - `media-inbox/music/`
+   - `media-inbox/companions/`
+3. **Run the Import Command**: In the terminal, run:
+   ```sh
+   npm run media:import
+   # or run video import specifically:
+   npm run media:import:videos
+   ```
+   This extracts the poster and thumbnail into `public/media/<category>/thumbs-video/`, registers the video in `src/videos.json`, and safely moves the original file into `media-originals/videos/<category>/`.
+4. **Upload to YouTube (Unlisted)**: Upload your original video to YouTube and set visibility to **Unlisted** (or upload to Vimeo). This keeps the video private to visitors of your website.
+5. **Add the Hosted Link**: Open `src/videos.json` and paste your YouTube URL into `externalUrl` (or set `youtubeId`):
+   ```json
+   {
+     "id": "manta-ray-dive",
+     "title": "Manta Ray Encounter in Ko Lipe",
+     "category": "diving",
+     "description": "Close encounter with a manta ray during an open water dive.",
+     "location": "Ko Lipe, Thailand",
+     "date": "2024",
+     "externalUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+   }
+   ```
+6. **Preview Locally**: Run `npm run dev` and open the gallery to verify the thumbnail, duration badge, and click-to-load modal playback.
+7. **Commit and Publish**: In GitHub Desktop, stage and commit only `src/videos.json` and the generated thumbnails (`public/media/.../thumbs-video/`). Your original video files remain safely in `media-originals/` and will never break deployment limits.
 
 ## Check and Build
 

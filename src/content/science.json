@@ -1,0 +1,160 @@
+{
+  "eyebrow": "Science",
+  "title": "Science & Publications",
+  "intro": "My research explores how cells overcome physical barriers during development. Using anchor cell invasion in Caenorhabditis elegans, I investigate how the cytoskeleton, cellular mechanics, and mitochondrial energetics contribute to invasive cell behavior.",
+  "modelOrganism": {
+    "eyebrow": "Model Organism",
+    "title": "Meet C. elegans",
+    "paragraphs": [
+      "Caenorhabditis elegans is a small, transparent nematode widely used in developmental and cell biology. An adult C. elegans measures approximately 1 millimeter (1 mm) in length and about 70–80 µm in diameter—barely visible to the naked eye as a tiny moving thread. Under a stereomicroscope, animals can be observed grazing on an Escherichia coli OP50 bacterial lawn on agar plates, propagating smooth sinusoidal waves as they crawl.",
+      "With an invariant somatic cell lineage of exactly 959 cells, complete optical clarity, and a rapid 3-day life cycle, this miniature powerhouse allows researchers to study complex cellular processes—such as basement membrane invasion, mechanical forces, and mitochondrial dynamics—directly in a living, intact organism."
+    ],
+    "image": "/media/science/c-elegans-541f7fdd82.jpg",
+    "caption": "Live C. elegans crawling on an E. coli OP50 bacterial lawn. Adult nematodes reach approximately 1 mm in length.",
+    "attribution": "Laboratory stereomicroscopy"
+  },
+  "anchorCell": {
+    "eyebrow": "Model System",
+    "title": "Anchor Cell Invasion: Crossing the Basement Membrane",
+    "paragraphs": [
+      "During development, a specialized cell called the anchor cell must cross the basement membrane, a thin sheet of extracellular matrix separating the uterus and developing vulva. This process can be observed in living C. elegans, making it a powerful model for understanding how cells navigate physical barriers.",
+      "In the [Sherwood Lab](https://sites.duke.edu/sherwoodlab/) at Duke University, I study how cells invade when matrix-degrading enzymes are absent, focusing on how cytoskeletal organization, invasive protrusions, and mitochondrial remodeling contribute to this process."
+    ],
+    "schematic": {
+      "src": null,
+      "title": "Invasion Schematic & Diagrams",
+      "caption": "Schematic diagram illustrating the multi-step invasion process and cellular mechanics in preparation.",
+      "attribution": "",
+      "pdfUrl": null
+    },
+    "microscopy": {
+      "src": "/media/science/anchor-cell/microscopy/ac-time-course.png",
+      "alt": "Microscopy timecourse across five developmental stages showing the Caenorhabditis elegans anchor cell (magenta) breaching the basement membrane (green)",
+      "title": "Watching cells cross a tissue barrier",
+      "captionLead": "Watching cells cross a tissue barrier.",
+      "caption": "During C. elegans development, the anchor cell (magenta) breaches the basement membrane (green), creating an opening that connects the developing uterine and vulval tissues.",
+      "attribution": "Duke University, [Sherwood Lab](https://sites.duke.edu/sherwoodlab/) · Live-cell fluorescence & DIC microscopy (400×)"
+    }
+  },
+  "publishedWorks": [
+    {
+      "id": "mitochondria-invasion-2026",
+      "shortTitle": "Mitochondria fuel invasion",
+      "title": "Specialized High-Capacity Mitochondria Fuel Cell Invasion",
+      "authors": "Isabel W. Kenny-Ganzert, Lena P. Basta, Lianzijun Wang, Qiuyi Chi, Laura Kelley, Caitlin Su, Julia Leyhr, Katherine S. Morton, Joel N. Meyer, David R. Sherwood",
+      "venue": "Current Biology, 2026",
+      "year": "2026",
+      "summary": "This study reveals how invasive cells generate local energy to breach dense extracellular matrix barriers. The work identifies a specialized subpopulation of high-capacity mitochondria that traffic directly to the basement membrane invasion site, enriched in electron transport chain machinery and driven by the pro-invasive transcriptional program.",
+      "figure": {
+        "src": "/media/science/2025.mitochondria-invasion/media/figure1.png",
+        "alt": "Figure snapshot from the specialized mitochondria cell invasion paper.",
+        "caption": "Specialized high-capacity mitochondria fuel cell invasion."
+      },
+      "journalLabel": "Current Biology article page",
+      "journalUrl": "https://doi.org/10.1016/j.cub.2026.03.023",
+      "pdfUrl": "/publications/2025.mitochondria-invasion/pdf/2025.05.02.651978v1.full.pdf"
+    },
+    {
+      "id": "actin-nuclear-invasion-2025",
+      "shortTitle": "Actin deforms nucleus",
+      "title": "The Actin Protrusion Deforms the Nucleus During Invasion Through Basement Membrane",
+      "authors": "Johan d'Humieres, Lianzijun Wang, David R. Sherwood, Julie Plastino",
+      "venue": "bioRxiv preprint, 2025",
+      "year": "2025",
+      "summary": "This study focuses on the physical side of basement membrane invasion. It shows that actin-based protrusions do more than push outward; they also deform the nucleus, helping the anchor cell move through a tight extracellular matrix barrier.",
+      "figure": {
+        "src": "/media/science/2025.actin-nuclear-invasion/media/figure1.png",
+        "alt": "Figure snapshot from the actin protrusion and nuclear deformation preprint.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "bioRxiv article page",
+      "journalUrl": "https://www.biorxiv.org/content/10.1101/2025.03.13.643012v1",
+      "pdfUrl": "/publications/2025.actin-nuclear-invasion/pdf/2025.03.13.643012v1.full.pdf"
+    },
+    {
+      "id": "lon1-cap-bmp-2025",
+      "shortTitle": "LON-1 and BMP signaling",
+      "title": "The Caenorhabditis elegans LON-1 Protein Requires Its CAP Domain for Function in Regulating Body Size and BMP Signaling",
+      "authors": "Maria Victoria Serrano, Stephanie Cottier, Lianzijun Wang, Sergio Moreira-Antepara, Anthony Nzessi, Zhiyu Liu, Byron H. Williams, Myeongwoo Lee, Roger Schneiter, Jun Liu",
+      "venue": "Genetics, 2025",
+      "year": "2025",
+      "summary": "This paper examines how LON-1 controls body size and BMP signaling in C. elegans. The key result is that conserved residues in the CAP domain are required for LON-1 function and sterol binding, connecting molecular binding behavior to organism-level size regulation.",
+      "figure": {
+        "src": "/media/science/2025.lon1-cap-bmp/media/figure1.png",
+        "alt": "Figure snapshot from the LON-1 CAP domain Genetics paper.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "Genetics article page",
+      "journalUrl": "https://academic.oup.com/genetics/article/229/2/iyae202/7921103",
+      "pdfUrl": "/publications/2025.lon1-cap-bmp/pdf/iyae202.pdf"
+    },
+    {
+      "id": "beta-integrin-serotonin-2024",
+      "shortTitle": "Integrin and serotonin",
+      "title": "The beta Integrin Modulates Serotonin Sensitivity via NPxY Motifs to Regulate Egg Laying and Mechanosensation Behaviors in Caenorhabditis elegans",
+      "authors": "J. H. Bumm, D. D. Lee, Z. Qiu, A. H. Choi, M. Kolluri, M. J. Olsen, L. Wang, M. Lee",
+      "venue": "Developmental Dynamics, 2024",
+      "year": "2024",
+      "summary": "This work links integrin signaling to animal behavior. By changing the phosphorylation state of beta integrin NPxY motifs in C. elegans, the study shows that those motifs influence serotonin sensitivity, egg laying, and mechanosensation.",
+      "figure": {
+        "src": "/media/science/2024.beta-integrin-serotonin/media/figure1.jpg",
+        "alt": "Figure snapshot from the beta integrin serotonin sensitivity paper.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "Developmental Dynamics article page",
+      "journalUrl": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/dvdy.70090",
+      "pdfUrl": "/publications/2024.beta-integrin-serotonin/pdf/Developmental%20Dynamics%20-%202025%20-%20Bumm%20-%20The%20%20%20integrin%20modulates%20serotonin%20sensitivity%20via%20NPxY%20motifs%20to%20regulate%20egg.pdf"
+    },
+    {
+      "id": "talin-integrin-2023",
+      "shortTitle": "Talin-integrin motif",
+      "title": "An Integrin Binding Motif in TLN-1/Talin Plays a Minor Role in Motility and Ovulation",
+      "authors": "Fereshteh Sadeghian, Ibrahim Ibrahim, Lokesh Ravichandran, Grace Henderson, Anisha Acharya, Lianzijun Wang, Myeongwoo Lee, Erin J. Cram",
+      "venue": "microPublication Biology, 2023",
+      "year": "2023",
+      "summary": "This short paper tests how much one predicted talin-integrin binding site matters in living animals. The TLN-1(W387A) mutation produced mild motility and ovulation effects, suggesting this residue has a limited role in muscle and gonadal sheath function in vivo.",
+      "figure": {
+        "src": "/media/science/2023.talin-integrin/media/figure1.png",
+        "alt": "Figure snapshot from the TLN-1 talin integrin binding motif paper.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "microPublication Biology article page",
+      "journalUrl": "https://www.micropublication.org/journals/biology/micropub-biology-000726",
+      "pdfUrl": "/publications/2023.talin-integrin/pdf/micropub-biology-000726.pdf"
+    },
+    {
+      "id": "perlecan-rgd-2022",
+      "shortTitle": "Perlecan RGD motif",
+      "title": "The RGD (Arg-Gly-Asp) is a Potential Cell-Binding Motif of UNC-52/PERLECAN",
+      "authors": "Zhongqiang Qiu, Aileen Park, Lianzijun Wang, Rachel Wilsey, Myeongwoo Lee",
+      "venue": "Biochemical and Biophysical Research Communications, 2022",
+      "year": "2022",
+      "summary": "This paper studies an RGD motif in UNC-52/perlecan, a basement membrane protein. Mutating or deleting the motif disrupted muscle attachment-related phenotypes, supporting the idea that this motif acts as an important integrin-binding ligand during development.",
+      "figure": {
+        "src": "/media/science/2022.perlecan-rgd/media/figure1.jpg",
+        "alt": "Figure snapshot from the UNC-52 perlecan RGD motif paper.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "BBRC article page",
+      "journalUrl": "https://www.sciencedirect.com/science/article/pii/S0006291X21016089",
+      "pdfUrl": "/publications/2022.perlecan-rgd/pdf/1-s2.0-S0006291X21016089-main.pdf"
+    },
+    {
+      "id": "laminin-mutations-2021",
+      "shortTitle": "Laminin RGD motif",
+      "title": "Mutations in the Cell-Binding Motif of lam-3/Laminin alpha Reveal Hypercontraction Behavior and Defective Sensitivity to Levamisole in Caenorhabditis elegans",
+      "authors": "Lianzijun Wang, Zhongqiang Qiu, Myeongwoo Lee",
+      "venue": "microPublication Biology, 2021",
+      "year": "2021",
+      "summary": "This paper characterizes the RGD motif in lam-3/laminin alpha. By generating RGE and delta-RGD mutations, the study connects cell-laminin interaction to body contraction control and levamisole sensitivity in C. elegans.",
+      "figure": {
+        "src": "/media/science/2021.laminin-mutations/media/figure1.jpg",
+        "alt": "Figure snapshot from the lam-3 laminin alpha mutation paper.",
+        "caption": "Main figure snapshot from the paper archive."
+      },
+      "journalLabel": "microPublication Biology article page",
+      "journalUrl": "https://www.micropublication.org/journals/biology/micropub-biology-000485",
+      "pdfUrl": "/publications/2021.laminin-mutations/pdf/paper.pdf"
+    }
+  ]
+}

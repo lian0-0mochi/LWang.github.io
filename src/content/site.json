@@ -1,0 +1,280 @@
+{
+  "profile": {
+    "name": "Lianzijun Wang",
+    "preferredName": "Lian Wang",
+    "title": "PhD Candidate in Biology",
+    "affiliation": "Duke University",
+    "location": "Durham, North Carolina",
+    "email": "lw385@duke.edu",
+    "cvPath": "/files/Lian_Wang_CV_2026.pdf",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/lianzijun-wang-59a103209/"
+      },
+      {
+        "label": "ORCID",
+        "href": "https://orcid.org/0000-0001-6467-4387"
+      }
+    ],
+    "intro": "Science, music, adventures, and the stories along the way.",
+    "biography": "Lianzijun (Lian) Wang is a Biology PhD student at Duke University in Dave Sherwood’s lab. Her research uses the C. elegans anchor cell invasion model to study how invasive cells breach basement membrane, reorganize their cytoskeleton, protect the plasma membrane, and adapt mitochondrial metabolism under mechanical challenge."
+  },
+  "adminPasswordHash": "3e30ea35fdd9df3739df1e2d5c209364b0d0df492ff6c76667f44d4de06c4b8a",
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "science",
+      "label": "Research"
+    },
+    {
+      "id": "music",
+      "label": "Pipa"
+    },
+    {
+      "id": "exploration",
+      "label": "Hobbies"
+    },
+    {
+      "id": "about",
+      "label": "Contact/CV"
+    }
+  ],
+  "hero": {
+    "image": "/media/science/hero-microscopy-placeholder.svg",
+    "alt": "Replaceable abstract microscopy placeholder image with glowing cellular forms.",
+    "eyebrow": "Biology, image, sound, fieldwork",
+    "headline": "A portfolio for close attention.",
+    "body": "Research, performance, and visual exploration gathered in one quiet, image-led space."
+  },
+  "homeAbout": {
+    "eyebrow": "About me",
+    "chineseName": "王莲子君",
+    "hometown": "Kunming, Yunnan, China",
+    "headline": "Lianzijun Wang",
+    "subtitle": "Research · Music · Exploration",
+    "story": [
+      "I was born and raised in Kunming, Yunnan, China, a city nicknamed the City of Eternal Spring for its lovely year-round weather. Growing up surrounded by mountains, flowers, and some incredible food, I have always had a soft spot for nature and exploring the world around me.",
+      "There is also a little story behind my name. 莲 means lotus, 子 can mean seed, and together 莲子 means lotus seed. 君 is associated with noble character, while 子君 has a classical, scholarly ring to it. My name draws inspiration from 爱莲说 (On the Love of the Lotus), a Chinese essay that celebrates the lotus for growing out of muddy waters while remaining beautiful and untainted.",
+      "My own journey has taken me quite a distance from Kunming. I moved to the United States for college and earned my bachelor’s degree at Baylor University, where I studied Biochemistry and Cell & Molecular Biology. That is where I first fell in love with research in Dr. Myeongwoo Lee’s lab, working with C. elegans.",
+      "Now, I am a Biology PhD student at Duke University in Dr. Dave Sherwood’s lab. My research focuses on how cells break through the physical barriers around them.",
+      "Outside the lab, I love playing the pipa (琵琶), scuba diving, traveling, photography, snowboarding, and finding new ways to explore the world through a microscope, underwater, or somewhere I have never been before.",
+      "Welcome to my corner of the pond 🪷"
+    ],
+    "hometownNote": "The City of Eternal Spring, and the place that taught me to notice mountains, flowers, food, and small living things.",
+    "education": [
+      "PhD student in Biology, Duke University, Sherwood Lab",
+      "Baylor University, Biochemistry and Cell & Molecular Biology",
+      "Undergraduate research in Dr. Myeongwoo Lee’s lab using C. elegans"
+    ]
+  },
+  "educationTimeline": [
+    {
+      "institution": "Duke University",
+      "period": "2023–Present",
+      "title": "PhD Candidate in Biology",
+      "place": "Department of Biology, Duke University",
+      "detail": "Conducting doctoral research in the [Sherwood Lab](https://sites.duke.edu/sherwoodlab/), investigating basement membrane invasion in C. elegans, with a focus on cytoskeletal organization, invasive protrusions, and mitochondrial remodeling."
+    },
+    {
+      "institution": "Baylor University",
+      "period": "2019–2023",
+      "title": "B.S., Double Major in Biochemistry and Biology",
+      "place": "Biology Concentration: Cell and Molecular Biology",
+      "honors": "GPA: 4.0 | Summa Cum Laude",
+      "detail": "Conducted undergraduate research in [Myeongwoo Lee's Lab](https://sites.google.com/view/myeongleelab2/home), using C. elegans genetics and CRISPR-Cas9 genome editing to investigate extracellular matrix and cell-adhesion biology."
+    }
+  ],
+  "navigationCards": [
+    {
+      "page": "science",
+      "title": "Research",
+      "kicker": "01",
+      "description": "Cell invasion, basement membrane breaching, and C. elegans microscopy.",
+      "image": "/media/science/anchor-cell/microscopy/ac-time-course.png",
+      "alt": "Microscopy time-course of C. elegans anchor cell invasion through the basement membrane."
+    },
+    {
+      "page": "music",
+      "title": "Pipa Playing",
+      "kicker": "02",
+      "description": "Traditional repertoire, Chinese music ensemble performances, and recordings.",
+      "image": "/media/music/pipa-performance-01-cover.png",
+      "alt": "Lian Wang performing on the pipa with the Chinese music ensemble."
+    },
+    {
+      "page": "exploration",
+      "title": "Hobbies",
+      "kicker": "03",
+      "description": "Scuba diving, underwater photography, snowy trips, and life outside the lab.",
+      "image": "/media/diving/scuba-05.jpeg",
+      "alt": "Underwater scuba diving photograph capturing ocean life."
+    }
+  ],
+  "showMoments": false,
+  "moments": [
+    {
+      "id": "pipa-jizushan",
+      "image": "/media/music/pipa-portrait-01.jpeg",
+      "category": "Music & Repertoire",
+      "title": "Jizu Mountain, Yunnan",
+      "caption": "Playing pipa at 鸡足山, a historic pilgrimage mountain in Yunnan.",
+      "alt": "Lian Wang playing the pipa at Jizu Mountain in Yunnan, China.",
+      "spanClass": "span-portrait"
+    },
+    {
+      "id": "diving-sea-turtle",
+      "image": "/media/diving/scuba-07.jpeg",
+      "category": "Ocean & Fieldwork",
+      "title": "The Ocean's Free Ride",
+      "caption": "A green sea turtle cruising open waters with a hitchhiking remora.",
+      "alt": "Green sea turtle swimming forward in open water with a remora hitching a ride on its shell.",
+      "spanClass": "span-wide"
+    },
+    {
+      "id": "science-c-elegans",
+      "image": "/media/science/c-elegans-541f7fdd82.jpg",
+      "category": "In the Lab",
+      "title": "Live C. elegans",
+      "caption": "Nematodes crawling on an E. coli OP50 bacterial plate at Duke Biology.",
+      "alt": "Stereomicroscopy view of live C. elegans on an agar plate.",
+      "spanClass": "span-medium-1"
+    },
+    {
+      "id": "diving-clownfish",
+      "image": "/media/diving/scuba-04.jpeg",
+      "category": "Underwater Ecology",
+      "title": "Anemone Penthouse",
+      "caption": "A tomato clownfish nestled inside bubble-tip anemone tentacles.",
+      "alt": "Tomato clownfish peeking out from pink-tipped sea anemone tentacles.",
+      "spanClass": "span-medium-2"
+    },
+    {
+      "id": "music-ensemble",
+      "image": "/media/music/pipa-performance-02-cover.png",
+      "category": "Stage & Ensemble",
+      "title": "Duke Chinese Music Ensemble",
+      "caption": "Performing 彝族舞曲 (Dance of the Yi People) with Professor Chang.",
+      "alt": "Lian Wang playing pipa accompanied by Professor Chang on Guzheng in concert.",
+      "spanClass": "span-feature-wide"
+    },
+    {
+      "id": "slopes-snowboarding",
+      "image": "/media/snowboarding/img-1265-732feee822.jpg",
+      "category": "Exploration",
+      "title": "High Mountain Slopes",
+      "caption": "Quiet winter trails and snowy peaks outside the laboratory.",
+      "alt": "Snowy mountain trails and snowboarder on the slopes.",
+      "spanClass": "span-feature-medium"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Dissertation Research",
+      "text": "Use this space for a concise description of Lian's current dissertation question, organism, methods, and broader biological context."
+    },
+    {
+      "title": "Scientific Imaging",
+      "text": "A gallery format supports microscopy, specimen, and field images with captions, scale bars, and replaceable metadata."
+    },
+    {
+      "title": "Creative Practice",
+      "text": "Music and exploration pages place performance, video, and underwater photography alongside academic work without blending the claims."
+    }
+  ],
+  "credentials": [
+    "PhD Candidate in Biology, Duke University",
+    "B.S. in Biochemistry and Biology, Cell & Molecular Biology concentration, Baylor University",
+    "ORCID: 0000-0001-6467-4387"
+  ],
+  "cvSections": [
+    {
+      "title": "Research Experience",
+      "items": [
+        {
+          "heading": "Ph.D. Researcher, Duke University",
+          "meta": "2023 - Present | Mentor: Dave Sherwood, PhD",
+          "detail": "Investigates how invasive cells breach basement membrane using the C. elegans anchor cell invasion model, with emphasis on perlecan, membrane protection, mitochondrial adaptation, spectrin, and mechanical resilience."
+        },
+        {
+          "heading": "Undergraduate Researcher, Baylor University",
+          "meta": "March 2021 - May 2023 | Mentor: Myeongwoo Lee, PhD",
+          "detail": "Used CRISPR-Cas9 genome editing and C. elegans microinjection to study extracellular matrix, cell adhesion, mechanosensation, egg-laying, and muscle function."
+        },
+        {
+          "heading": "B-TRUE Summer Fellow, Baylor University",
+          "meta": "Summer 2020",
+          "detail": "Analyzed and presented a natural product synthesis study using pharmacophore-directed retrosynthesis."
+        }
+      ]
+    },
+    {
+      "title": "Selected Publications",
+      "items": [
+        {
+          "heading": "Specialized high-capacity mitochondria fuel cell invasion",
+          "meta": "Current Biology, 2026",
+          "detail": "Kenny-Ganzert, Basta, Wang, Chi, Kelley, Su, Leyhr, Morton, Meyer, and Sherwood."
+        },
+        {
+          "heading": "The beta integrin modulates serotonin sensitivity via NPxY motifs to regulate egg laying and mechanosensation behaviors",
+          "meta": "Developmental Dynamics, 2025",
+          "detail": "Bumm, Lee, Qiu, Choi, Kolluri, Olsen, Wang, and Lee."
+        },
+        {
+          "heading": "The C. elegans LON-1 protein requires its CAP domain for function in regulating body size and BMP signaling",
+          "meta": "Genetics, 2025",
+          "detail": "Serrano, Cottier, Wang, Moreira-Antepara, Nzessi, Liu, Williams, Lee, Schneiter, and Liu."
+        },
+        {
+          "heading": "Mutations in the cell-binding motif of lam-3/laminin alpha",
+          "meta": "microPublication Biology, 2021",
+          "detail": "Wang, Qiu, and Lee."
+        }
+      ]
+    },
+    {
+      "title": "Presentations",
+      "items": [
+        {
+          "heading": "Plasma membrane damage and repair during anchor cell invasion",
+          "meta": "Triangle Cytoskeleton Meeting, 2024",
+          "detail": "Poster presentation."
+        },
+        {
+          "heading": "DEB-1/Vinculin proline-rich-linker roles in touch sensitivity and egg-laying",
+          "meta": "Texas Genetics Society, 2023",
+          "detail": "Poster presentation."
+        },
+        {
+          "heading": "Mutations in the cell-binding motif of lam-3/laminin alpha",
+          "meta": "Capital of Texas Undergraduate Research Conference, 2022",
+          "detail": "Oral presentation."
+        }
+      ]
+    },
+    {
+      "title": "Honors and Teaching",
+      "items": [
+        {
+          "heading": "URSA Scholars Week Outstanding Platform Presentation",
+          "meta": "2022 and 2023",
+          "detail": "Recognized for undergraduate research presentations at Baylor University."
+        },
+        {
+          "heading": "Folmar Award and URSA Mini-Research Grant",
+          "meta": "2022 - 2023",
+          "detail": "Research funding supporting C. elegans genetics and CRISPR-Cas9 work."
+        },
+        {
+          "heading": "Teaching Assistant, Duke Biology",
+          "meta": "Fall 2024 - Spring 2025",
+          "detail": "BIO 220 Cell Biology and BIO 202 Genetics and Evolution."
+        }
+      ]
+    }
+  ]
+}

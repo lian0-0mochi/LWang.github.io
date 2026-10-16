@@ -9,6 +9,7 @@
     "copy:publication-assets": "if [ -d static/publications ]; then mkdir -p dist/publications && cp -R static/publications/. dist/publications/; fi",
     "preview": "vite preview",
     "media:import": "node scripts/import-media.mjs",
+    "media:import:videos": "node scripts/import-videos.mjs",
     "check:assets": "node scripts/check-assets.mjs",
     "check:files": "node scripts/check-files.mjs",
     "test": "node --test scripts/*.test.mjs"

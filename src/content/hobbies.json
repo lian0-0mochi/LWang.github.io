@@ -1,0 +1,26 @@
+{
+  "overview": "Visual notes from diving, snowboarding, pets, and small trips outside the lab.",
+  "categories": [
+    {
+      "id": "diving",
+      "route": "hobbies/diving",
+      "title": "Diving",
+      "subtitle": "Scuba Diving & Freediving",
+      "description": "I'm a PADI-certified Advanced Freediver and scuba diver, and I love exploring the underwater world. My diving adventures have taken me to Ko Lipe and Ko Tao in Thailand; Sipadan and Pulau Perhentian Besar in Malaysia; Malapascua in the Philippines; and Hawaiʻi. This gallery is a collection of some of my favorite underwater encounters."
+    },
+    {
+      "id": "snowboarding",
+      "route": "hobbies/snowboarding",
+      "title": "Snowboarding",
+      "subtitle": "Adventures on the Slopes",
+      "description": "When I'm not exploring underwater, I enjoy heading to the mountains. Snowboarding gives me another reason to get outside, and this gallery captures some of my favorite moments on the slopes."
+    },
+    {
+      "id": "companions",
+      "route": "hobbies/companions",
+      "title": "Little Companions",
+      "subtitle": "My Pets",
+      "description": "Meet Mochi, my fluffy Ragdoll, and Summer, my little cookies-and-cream cat! These two are experts at making themselves comfortable, stealing my favorite spots, and reminding me to slow down and enjoy the little things. They fill my days with warmth, happiness, and a little extra fluff. Of course, they deserve their own corner of the website (and plenty of photos to show off their cuteness)."
+    }
+  ]
+}

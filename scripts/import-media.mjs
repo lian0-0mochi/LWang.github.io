@@ -95,11 +95,17 @@ export async function importMedia(root, selected = categories) {
   return imported;
 }
 
+import { importVideos } from './import-videos.mjs';
+
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const selected = process.argv.slice(2);
   const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-  importMedia(root, selected.length ? selected : categories).catch(error => {
+  const cats = selected.length ? selected : categories;
+  try {
+    await importMedia(root, cats);
+    await importVideos(root, cats);
+  } catch (error) {
     console.error(error.message);
     process.exitCode = 1;
-  });
+  }
 }

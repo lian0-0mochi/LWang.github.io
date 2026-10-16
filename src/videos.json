@@ -1,0 +1,115 @@
+{
+  "diving": [
+    {
+      "id": "hobbies-video-02",
+      "title": "Black Triggerfish & Deep Blue Waters",
+      "category": "diving",
+      "description": "Encounter with a swirling school of black triggerfish in open water.",
+      "location": "Hawaii",
+      "date": "2024",
+      "duration": 29.64,
+      "sourceFile": "black triggerfish.mov",
+      "poster": "/media/diving/thumbs-video/hobbies-video-02-poster.jpg",
+      "thumb": "/media/diving/thumbs-video/hobbies-video-02-thumb.jpg",
+      "externalUrl": "https://pub-b84ce46254044f28a3c112ca319e0cc6.r2.dev/diving/black%20triggerfish.mov",
+      "type": "video/quicktime",
+      "status": "published"
+    },
+    {
+      "id": "hobbies-video-01",
+      "title": "Freediving & Marine Life",
+      "category": "diving",
+      "description": "Gliding effortlessly over vibrant coral reefs during freediving exploration.",
+      "location": "Hawaii",
+      "date": "2023",
+      "duration": 30.46,
+      "sourceFile": "diving.mov",
+      "poster": "/media/diving/thumbs-video/hobbies-video-01-poster.jpg",
+      "thumb": "/media/diving/thumbs-video/hobbies-video-01-thumb.jpg",
+      "externalUrl": "https://pub-b84ce46254044f28a3c112ca319e0cc6.r2.dev/diving/diving.mov",
+      "type": "video/quicktime",
+      "status": "published"
+    }
+  ],
+  "snowboarding": [],
+  "companions": [
+    {
+      "id": "companions-video-01",
+      "title": "Freshwater Angelfish & Planted Tank",
+      "category": "companions",
+      "description": "Graceful freshwater angelfish gliding through the lush planted aquarium community.",
+      "location": "Durham, NC",
+      "date": "2024",
+      "duration": 42.65,
+      "sourceFile": "angel fish.mov",
+      "poster": "/media/companions/thumbs-video/companions-video-01-poster.jpg",
+      "thumb": "/media/companions/thumbs-video/companions-video-01-thumb.jpg",
+      "externalUrl": "https://pub-b84ce46254044f28a3c112ca319e0cc6.r2.dev/Pets/angel%20fish.mov",
+      "type": "video/quicktime",
+      "status": "published"
+    },
+    {
+      "id": "companions-video-02",
+      "title": "Golden Apple Snail on the Move",
+      "category": "companions",
+      "description": "A golden mystery apple snail exploring the planted freshwater tank with waving antennae.",
+      "location": "Durham, NC",
+      "date": "2024",
+      "duration": 9.30,
+      "sourceFile": "apple snail.mov",
+      "poster": "/media/companions/thumbs-video/companions-video-02-poster.jpg",
+      "thumb": "/media/companions/thumbs-video/companions-video-02-thumb.jpg",
+      "externalUrl": "https://pub-b84ce46254044f28a3c112ca319e0cc6.r2.dev/Pets/apple%20snail.mov",
+      "type": "video/quicktime",
+      "status": "published"
+    },
+    {
+      "id": "companions-video-03",
+      "title": "Koi Betta Fish Exploring the Tank",
+      "category": "companions",
+      "description": "A vibrant koi betta fish swimming gracefully around aquarium rocks and little snails.",
+      "location": "Durham, NC",
+      "date": "2024",
+      "duration": 59.20,
+      "sourceFile": "beta.mov",
+      "poster": "/media/companions/thumbs-video/companions-video-03-poster.jpg",
+      "thumb": "/media/companions/thumbs-video/companions-video-03-thumb.jpg",
+      "externalUrl": "https://pub-b84ce46254044f28a3c112ca319e0cc6.r2.dev/Pets/beta.mov",
+      "type": "video/quicktime",
+      "status": "published"
+    }
+  ],
+  "music": [
+    {
+      "id": "pipa-performance-1",
+      "title": "春江花月夜 (A Moonlit Night on the Spring River)",
+      "category": "music",
+      "description": "Duet with Professor Chang, Director of the Duke University Chinese Music Ensemble, on guzheng. Inspired by Zhang Ruoxu's Tang dynasty poem, this classical masterpiece paints dusk descending over a winding river as the spring moon rises above flowering banks 🌙🌊🌸. The rolling tremolos (lunzhi) of the pipa capture shimmering ripples and luminous moonlight, harmonizing with the fluid sweeps of the guzheng to evoke quiet evening water, drifting skiffs, and serene contemplation.",
+      "location": "Durham, NC",
+      "date": "2024",
+      "duration": null,
+      "poster": "/media/music/pipa-performance-01-cover.png",
+      "thumb": "/media/music/pipa-performance-01-cover.png",
+      "externalUrl": "https://www.youtube.com/live/0mfICpEBwic?t=1168",
+      "youtubeId": "0mfICpEBwic",
+      "start": 1168,
+      "status": "published"
+    },
+    {
+      "id": "pipa-performance-2",
+      "title": "彝族舞曲 (Dance of the Yi People)",
+      "category": "music",
+      "description": "Accompanied by Professor Chang on guzheng. Composed by Wang Huiran after traveling through the picturesque highlands of Yunnan, this vibrant piece tells the story of an evening village gathering. It opens with an intimate, singing melody echoing through twilight foothills, before igniting into an exuberant festival dance 🔥💃✨—pulsing with driving rhythms, joyful syncopation, and lively celebration around the mountain bonfire.",
+      "location": "Durham, NC",
+      "date": "2024",
+      "duration": null,
+      "poster": "/media/music/pipa-performance-02-cover.png",
+      "thumb": "/media/music/pipa-performance-02-cover.png",
+      "externalUrl": "https://www.youtube.com/watch?v=f-RyFVn-hxs&t=1921",
+      "youtubeId": "f-RyFVn-hxs",
+      "start": 1921,
+      "status": "published"
+    }
+  ],
+  "science": []
+}
