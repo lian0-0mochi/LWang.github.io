@@ -1,0 +1,8 @@
+# Robots.txt for Lian Wang (Lianzijun Wang) Academic Portfolio
+# https://lian0-0mochi.github.io/LWang.github.io/
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lian0-0mochi.github.io/LWang.github.io/sitemap.xml

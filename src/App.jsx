@@ -163,10 +163,26 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const profName = `${effectiveContent.site.profile.preferredName} (${effectiveContent.site.profile.name})`;
     if (activePage === 'admin') {
-      document.title = `Visual Editor | ${effectiveContent.site.profile.preferredName}`;
+      document.title = `Visual Editor | ${profName}`;
+    } else if (activePage === 'home') {
+      document.title = 'Lian Wang (Lianzijun Wang) | PhD Candidate in Biology | Duke University';
+    } else if (activePage === 'science') {
+      document.title = 'Research & Publications | Lian Wang | Duke Biology';
+    } else if (activePage === 'music') {
+      document.title = 'Pipa & Chinese Music | Lian Wang | Duke University';
+    } else if (activePage === 'exploration') {
+      document.title = 'Hobbies & Fieldwork | Lian Wang | Duke University';
+    } else if (activePage.startsWith('hobbies/')) {
+      const categoryId = activePage.split('/')[1];
+      const category = effectiveContent.exploration.categories.find((c) => c.id === categoryId);
+      document.title = `${category ? category.title : 'Hobbies'} | Lian Wang | Duke University`;
+    } else if (activePage === 'about') {
+      document.title = 'Contact & CV | Lian Wang | Duke Biology';
     } else {
-      document.title = `${effectiveContent.site.pages.find((page) => page.id === activePage)?.label ?? 'Portfolio'} | ${effectiveContent.site.profile.preferredName}`;
+      const pageLabel = effectiveContent.site.pages.find((page) => page.id === activePage)?.label ?? 'Portfolio';
+      document.title = `${pageLabel} | ${profName} | Duke University`;
     }
     window.scrollTo({ top: 0, behavior: 'auto' });
   }, [activePage, effectiveContent]);
